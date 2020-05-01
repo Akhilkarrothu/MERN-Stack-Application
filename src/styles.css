@@ -1,0 +1,102 @@
+.App {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.App-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.inputtext{
+  width: 55%;
+  padding: 10px 10px;
+  margin: 12px 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputsubmit {
+  width:25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputdiv{
+
+  border-radius: 5px;
+  /*background-color: #f2f2f2;
+    margin-right: 1260px;
+   */
+  padding: 20px;
+
+
+
+}
+
+@media (min-width: 600px ) {
+  .App {
+    background-position: center center;
+
+  }
+
+  .App-content {
+    align-items: flex-end;
+    justify-content: center;
+
+  }
+  .table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+  }
+
+  .td{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .tr:nth-child(even){background-color: #f2f2f2;}
+
+  .tr:hover {background-color: #ddd;}
+
+  .th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+}
